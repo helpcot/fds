@@ -1,10 +1,5 @@
 discord.py
+aiohttp
+websockets
+chardet
 asyncio
-itertools
-math
-random
-FFmpegPCMAudio
-ffmpeg
-youtube_dl
-timeout
-os
