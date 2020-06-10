@@ -35,8 +35,8 @@ for filename in os.listdir('./cogs'): # Цикл перебирающий фай
     if filename.endswith('.py'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 
-token = 'Njg5NzU3NDM5OTg5MzgzMjYw.Xt-FLw.PGNkAhyA4D4lkwxY4OueHEkEdsw'
-bot.run(str(token))
+token = os.environ.get('BOT_TOKEN') # Получаем токен с heroku который ты указывал в настройках
+bot.run(str(token)) # запускаем бота
 
 
 
