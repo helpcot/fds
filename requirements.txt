@@ -1,0 +1,11 @@
+discord.py
+asyncio
+functools
+itertools
+math
+random
+FFmpegPCMAudio
+ffmpeg
+youtube_dl
+timeout
+os
