@@ -1,6 +1,5 @@
 discord.py
 asyncio
-functools
 itertools
 math
 random
