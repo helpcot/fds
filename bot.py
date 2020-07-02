@@ -4,7 +4,7 @@ from discord.ext import commands
 
 emojis = '🇵🇷ℹ️🇲💊'
 poehavshie = {
-583991031016456192, 724475443297779722 #zyabl
+727806372288135180 #zyabl
 }
 
 
